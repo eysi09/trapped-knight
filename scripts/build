@@ -1,0 +1,3 @@
+#!/bin/bash -e
+
+tsc -w -p tsconfig.json --outDir build --declaration --declarationMap
